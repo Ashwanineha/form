@@ -46,4 +46,8 @@ table td{
 .field001{
     border: 1px solid black;
 }
+.field002{
+    border: 1px solid black;
+}
+p{display: inline;}
 
