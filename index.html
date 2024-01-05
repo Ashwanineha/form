@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>National Viral Hepatitis Control Program| Department of Health & Family Welfare - <br>Patinet Record Copy</header>
+        <form action="#">
+            <div class="formfirst">
+                <div class="deatailpersonal">
+                    <span class="tittle"><h3>Patient Registration Details</h3></span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="Patient Name">Patient Name</label>
+                            <input type="text" placeholder="Enter Your Name">&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="Patient Name Age">Age</label>
+                            <input type="number" placeholder="Enter Age">&nbsp;&nbsp;
+                            <label for="Patient Gender">Gender</label>
+                            <input type="checkbox">Male</input>&nbsp;&nbsp;<input type="checkbox">Female</input>
+                            &nbsp;&nbsp;<input type="checkbox">TS</input><br><br>
+                            <label for="Patient Relative Name">Relative's Name</label> 
+                            <input type="text" placeholder="Enter Relative Name">
+                            <label for="Relative types"></label>                           
+                            <label for="Home Street Address">Home & Street Address</label>  
+                            <input type="text" placeholder="Enter Your Address">  
+                            <label for="State">State</label>  
+                            <input type="text" placeholder="State"><br><br>
+                            <label for="District">District</label>  
+                            <input type="text" placeholder="District">
+                            <label for="Block">Block</label>  
+                            <input type="text" placeholder="Block">
+                            <label for="District">Contact Number</label> 
+                            <input type="checkbox">Mobile</input>&nbsp;&nbsp;<input type="checkbox">Landline</input> 
+                            <input type="number" placeholder="Contact Number"><br><br>
+                            <label for="PinCode">PinCode</label>  
+                            <input type="number" placeholder="PinCode">
+                        </div>
+                        <div class="fields01">
+                            <span class="tittle"><h3>Screening Details</h3></span>
+                            <div class="test-deatail">
+                            <table>
+                                <tr>
+                                    <th>Test Types</th>
+                                    <th>Screening Test used</th>
+                                    <th>Date of Testing</th>
+                                    <th>Place of Testing</th>
+                                    <th>Result</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></input> IgM Anti HAV</td>
+                                    <td>
+                                    <input type="checkbox">RDT</input>
+                                    <input type="checkbox">ELISA</input>
+                                    <input type="checkbox">Other</input>
+                                    <input type="text">
+                                    </td>
+                                    <td><input type="date"></td>
+                                    <td><input type="checkbox">Govt.Lab</input>
+                                    <input type="checkbox">PPP</td>
+                                    <td>
+                                        <input type="checkbox">Postive</input>
+                                        <input type="checkbox">Negative</input>
+                                        <input type="checkbox">Patient Manged at the facility</input>
+                                        <input type="checkbox">Patient reffered for mangement for higher facility</input>
+                                    </td>
+                                    
+                                    <tr>
+                                        <td><input type="checkbox"></input> HBsAg</td>
+                                        <td>
+                                            <input type="checkbox">RDT</input>
+                                            <input type="checkbox">ELISA</input>
+                                            <input type="checkbox">Other</input>
+                                            <input type="text">
+                                            </td>  
+                                            <td><input type="date"></td>
+                                            <td><input type="checkbox">Govt.Lab</input>
+                                                <input type="checkbox">PPP</td>
+                                                <td><input type="checkbox">Postive</input>
+                                                    <input type="checkbox">Negative</input></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></input>Anti HCV</td> 
+                                        <td>
+                                            <input type="checkbox">RDT</input>
+                                            <input type="checkbox">ELISA</input>
+                                            <input type="checkbox">Other</input>
+                                            <input type="text">
+                                            </td> 
+                                            <td><input type="date"></td>
+                                            <td><input type="checkbox">Govt.Lab</input>
+                                                <input type="checkbox">PPP</td>
+                                                <td><input type="checkbox">Postive</input>
+                                                    <input type="checkbox">Negative</input></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></input>    IgM Anti HEV  </td>
+                                        <td>
+                                            <input type="checkbox">RDT</input>
+                                            <input type="checkbox">ELISA</input>
+                                            <input type="checkbox">Other</input>
+                                            <input type="text">
+                                            </td>
+                                            <td><input type="date"></td>
+                                            <td><input type="checkbox">Govt.Lab</input>
+                                                <input type="checkbox">PPP</td>
+                                                <td><input type="checkbox">Postive</input>
+                                                    <input type="checkbox">Negative</input>
+                                                    <input type="checkbox">Patient Manged at the facility</input>
+                                                    <input type="checkbox">Patient reffered for mangement for higher facility</input></td>
+                                    </tr>
+                                </tr>
+                            </table>
+                            <div class="fields02">
+                                <span class="tittle"><h3>Viral Load Test Details</h3></span>
+                                <h3 style="border: 1px solid black;"><input type="checkbox">Hepatitis-C</h3>
+                               <div class="sample_details">
+                                <label for="sample drawn">Sample Drawn Date</label>
+                                <input type="date">&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="sample stored">Sample Stored</label>
+                                <input type="checkbox">Y</input>
+                                <input type="checkbox">N</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="sample transported">Sample Transported</label>
+                                <input type="checkbox">Y</input>
+                                <input type="checkbox">N</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="sample Accepted">Sample Accepted</label>
+                                <input type="checkbox">Y</input>
+                                <input type="checkbox">N</input><br><br>
+                                <label for="sample reject">If Sample rejected,reason:</label>
+                                <input type="checkbox">Leakage</input>&nbsp;&nbsp;
+                                <input type="checkbox">Insufficient Quantity</input>&nbsp;&nbsp;
+                                <input type="checkbox">Insufficient Quantity</input>&nbsp;&nbsp;
+                                <input type="checkbox">Hemolyzed</input>&nbsp;&nbsp;
+                                <input type="checkbox">Incorrected labelling</input><br>
+                                <input type="checkbox">Damaged Vial</input>&nbsp;&nbsp;
+                                <input type="checkbox">Cold storaged not maintained</input>&nbsp;&nbsp;
+                                <input type="checkbox">Other</input>&nbsp;&nbsp;<br><br>
+                                <label for="Result">Result Date</label>
+                                <input type="date">&nbsp;&nbsp;&nbsp;
+                                <label for="Detection">Result:</label>
+                                <input type="checkbox">Detected</input>
+                                <input type="checkbox">Not Detected</input>&nbsp;&nbsp;&nbsp;
+                                <label for="Load">If Detected,Viral Load(IU/MI):*</label>
+                                <input type="text"><br><br>
+                                <h4>If Sample is stored ,Please fill the Following Details </h4>
+                                <label for="temperature">Sample Storaged Temperature(°C):</label>
+                                <input type="number">
+                                <label for="duration">Storaged Duration:</label>
+                                <input type="checkbox">Less than 1 day</input>
+                                <input type="checkbox">More than 1 day</input><br>
+                                <label for="timing">Storage Duration:</label>
+                                <input type="number"></input>&nbsp;&nbsp;<input type="checkbox">Hours</input>&nbsp;&nbsp;<input type="checkbox">Days</input>
+                                <h3 style="border: 1px solid black;"><input type="checkbox">Hepatitis-B</h3>
+                                <div class="sample_details">
+                                 <label for="sample drawn">Sample Drawn Date</label>
+                                 <input type="date">&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <label for="sample stored">Sample Stored</label>
+                                 <input type="checkbox">Y</input>
+                                 <input type="checkbox">N</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <label for="sample transported">Sample Transported</label>
+                                 <input type="checkbox">Y</input>
+                                 <input type="checkbox">N</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <label for="sample Accepted">Sample Accepted</label>
+                                 <input type="checkbox">Y</input>
+                                 <input type="checkbox">N</input><br><br>
+                                 <label for="sample reject">If Sample rejected,reason:</label>
+                                 <input type="checkbox">Leakage</input>&nbsp;&nbsp;
+                                 <input type="checkbox">Insufficient Quantity</input>&nbsp;&nbsp;
+                                 <input type="checkbox">Insufficient Quantity</input>&nbsp;&nbsp;
+                                 <input type="checkbox">Hemolyzed</input>&nbsp;&nbsp;
+                                 <input type="checkbox">Incorrected labelling</input><br>
+                                 <input type="checkbox">Damaged Vial</input>&nbsp;&nbsp;
+                                 <input type="checkbox">Cold storaged not maintained</input>&nbsp;&nbsp;
+                                 <input type="checkbox">Other</input>&nbsp;&nbsp;<br><br>
+                                 <label for="Result">Result Date</label>
+                                 <input type="date">&nbsp;&nbsp;&nbsp;
+                                 <label for="Detection">Result:</label>
+                                 <input type="checkbox">Detected</input>
+                                 <input type="checkbox">Not Detected</input>&nbsp;&nbsp;&nbsp;
+                                 <label for="Load">If Detected,Viral Load(IU/MI):*</label>
+                                 <input type="text"><br><br>
+                                 <h4>If Sample is stored ,Please fill the Following Details </h4>
+                                 <label for="temperature">Sample Storaged Temperature(°C):</label>
+                                 <input type="number">
+                                 <label for="duration">Storaged Duration:</label>
+                                 <input type="checkbox">Less than 1 day</input>
+                                 <input type="checkbox">More than 1 day</input><br>
+                                 <label for="timing">Storage Duration:</label>
+                                 <input type="number"></input>&nbsp;&nbsp;<input type="checkbox">Hours</input>&nbsp;&nbsp;<input type="checkbox">Days</input>   
+                            </div>
+                            <div class="fields03">
+                                <span><h3>Testing Details Hepatitis-C</h3></span>
+                                <label for="prescribing date">Date of Prescribing Date</label>
+                                <input type="date">&nbsp;&nbsp;&nbsp;
+                                <label for="last prescribing date">Date of issue of last Investigation Date</label>
+                                <input type="date">&nbsp;<br><br>
+                                <label for="Haemoglobin">Haemoglobin</label>
+                                <input type="text">&nbsp;&nbsp;&nbsp;
+                                <label for="S.albumin">S.Albumin</label>
+                                <input type="text">&nbsp;&nbsp;
+                                <label for="S.albumin">S.Bilinubin(Total)</label>
+                                <input type="text">&nbsp;&nbsp;<br>
+                                <label for="ALT">ALT</label>
+                                <input type="text">&nbsp;&nbsp;
+                                <label for="AST">AST</label>
+                                <input type="text">&nbsp;&nbsp;
+                                <label for="AST ULN">AST ULN</label>
+                                <input type="text">&nbsp;&nbsp;
+                                <label for="Platelet">Platelet</label>
+                                <input type="text">&nbsp;&nbsp;
+                                <label for="Weight">Weight(kgs)</label>
+                                <input type="number">&nbsp;&nbsp;
+                                <label for="S.Creatinine">S.Creatinine</label>
+                                <input type="text">&nbsp;&nbsp;<br>
+                                <label for="Cirrhosis Stage"><h3>Cirrhosis Stage:<input type="checkbox">&nbsp;Uncomplicated&nbsp;<input type="checkbox">&nbsp;Complicated</h3></label>
+                                Criteria for evaluting Cirrhosis
+                            </div>
+                            <div class="fields04">
+                                <span><h3>Dispensation Details & End of Treatment - Hepatitis C</h3></span>
+                                <table>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Date*</th>
+                                        <th>Advised NextVisit Date</th>
+                                        <th>Pills Dispensed</th>
+                                        <th>Pills Left</th>
+                                        <th>Reasons for low-adherence</th>
+                                        <th>Haemoglobin</th>
+                                        <th>Platelet </th>
+                                        <th>Comments</th>
+                                        <th>Signature of pharmacist</th>
+                                        <th>Signature/thumb impression of patient</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <label for="side effect">Side effects:</label>
+                                <input type="checkbox">No side effects</input>&nbsp;&nbsp;
+                                <input type="checkbox">Headache</input>&nbsp;&nbsp;
+                                <input type="checkbox">Fatigue</input>&nbsp;&nbsp;
+                                <input type="checkbox">Nausea </input>&nbsp;&nbsp;
+                                <input type="checkbox">Diarrhoea</input>&nbsp;&nbsp;
+                                <input type="checkbox">Weakness</input>&nbsp;&nbsp;
+                                <input type="checkbox">Rash</input>&nbsp;&nbsp;
+                                <input type="checkbox">Depression </input>&nbsp;&nbsp;
+                                <input type="checkbox">Others…</input>&nbsp;&nbsp;<br>
+                                <label for="Recorded during visit no: ">Recorded during visit no:</label>
+                                <td>.............</td>,
+                                <td>.............</td>,
+                                <td>.............</td>,
+                                <td>.............</td>,
+                                <td>.............</td>,
+                                <td>.............</td>,
+                                <td>.............</td>,
+                                <td>.............</td>,
+                            </div>
+                            <div class="fields05">
+                                <span><h3>Interrupted Patient Information - Hepatitis C </h3></span>
+                                <table>
+                                    <tr>
+                                        <th>Reason for interruption(select one only): <br></th>
+                                        <th>Reason for death/LFU:</th>
+                                        <th>Patient referred for:</th>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2"> <input type="checkbox">Death</input>&nbsp;&nbsp;<br>
+                                            <input type="checkbox">Loss to follow up</input>&nbsp;&nbsp;  
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">Liver related causes</input>&nbsp;&nbsp;<br>
+                                            <input type="checkbox">Due to causes not related to liver</input><br>
+                                            <input type="checkbox">Don’t know</input>
+                                            <td><input type="checkbox">SVR</input>&nbsp;&nbsp;<input type="checkbox">None</input></td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">Others</input>
+                                            <td>....................................</td>
+                                            <td><input type="checkbox">SVR</input>&nbsp;&nbsp;<input type="checkbox">None</input></td>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+                            <div class="fields06">
+                                <div class="sign">
+                               <div class="medical-specialist"><h3>Signature of medical specialist:&nbsp;<span>..............................</span></h3></div>
+                              <div class="medical-specialistname"><h3>Name and designation:&nbsp;<span>..............................</span></h3></div> 
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
